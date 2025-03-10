@@ -1,0 +1,802 @@
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Bad Request: /features/api/vendors/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\urls.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Not Found: /features/api/vendors/1/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\urls.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception getting vendor details, Cannot resolve keyword 'id' into field. Choices are: FeaturesHistoricalPerformanceModel_vendor, FeaturesPurchaseOrder_vendor, address, average_response_time, contact_details, created_date, fulfillment_rate, name, on_time_delivery_rate, quality_rating_avg, updated_date, vendor_code
+WARNING:django.request:Bad Request: /features/api/vendors/1/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\admin.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Not Found: /admin/features/featuresvendorprofilemodel/
+WARNING:django.request:Not Found: /admin/features/featuresvendorprofilemodel/V123/change/
+ERROR:django.request:Internal Server Error: /admin/features/featuresvendorsprofilemodel/
+Traceback (most recent call last):
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "features_featuresvendorsprofilemodel" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "features_featuresvendorsp...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\options.py", line 1985, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\options.py", line 864, in get_changelist_instance
+    return ChangeList(
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\views\main.py", line 145, in __init__
+    self.get_results(request)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\views\main.py", line 312, in get_results
+    result_count = paginator.count
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\models\sql\query.py", line 629, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\models\sql\query.py", line 615, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "features_featuresvendorsprofilemodel" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "features_featuresvendorsp...
+                                          ^
+
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+ERROR:django.request:Internal Server Error: /admin/features/featuresvendorsprofilemodel/
+Traceback (most recent call last):
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "features_featuresvendorsprofilemodel" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "features_featuresvendorsp...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\options.py", line 1985, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\options.py", line 864, in get_changelist_instance
+    return ChangeList(
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\views\main.py", line 145, in __init__
+    self.get_results(request)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\views\main.py", line 312, in get_results
+    result_count = paginator.count
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\models\sql\query.py", line 629, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\models\sql\query.py", line 615, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "features_featuresvendorsprofilemodel" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "features_featuresvendorsp...
+                                          ^
+
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Bad Request: /features/api/vendors/2/
+WARNING:django.request:Bad Request: /features/api/vendors/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Bad Request: /features/api/vendors/
+WARNING:django.request:Bad Request: /features/api/vendors/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception updating vendor, 'FeaturesVendorsProfileModel' object has no attribute 'items'
+WARNING:django.request:Bad Request: /features/api/vendors/1/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception updating vendor, 'FeaturesVendorsProfileModel' object has no attribute 'items'
+WARNING:django.request:Bad Request: /features/api/vendors/1/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+ERROR:django.request:Internal Server Error: /features/api/vendors/1/
+Traceback (most recent call last):
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Projects\vendor_management\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Projects\vendor_management\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Projects\vendor_management\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: FeaturesVendorByIDAPI.delete() got an unexpected keyword argument 'vendor_id'
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Bad Request: /features/api/vendors/
+WARNING:django.request:Not Found: /features/api/purhcase_orders/
+WARNING:django.request:Bad Request: /features/api/purchase_orders/
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\admin.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Bad Request: /features/api/purchase_orders/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Bad Request: /features/api/purchase_orders/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Bad Request: /features/api/purchase_orders/
+WARNING:django.request:Bad Request: /features/api/purchase_orders/
+ERROR:django.request:Internal Server Error: /features/api/purchase_orders/1/
+Traceback (most recent call last):
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Projects\vendor_management\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Projects\vendor_management\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Projects\vendor_management\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: FeaturesPurchaseOrderByIDAPI.get() got an unexpected keyword argument 'po_id'
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception getting vendor details, 'vendor_id'
+WARNING:django.request:Bad Request: /features/api/purchase_orders/1/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Bad Request: /features/api/purchase_orders/3/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Not Found: /features/api/purchase_order/1/
+INFO:vendor_management.settings:Exception deleting purchase order, 'vendor_id'
+WARNING:django.request:Bad Request: /features/api/purchase_orders/1/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\admin.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\admin.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Bad Request: /features/api/purchase_orders/1/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Bad Request: /features/api/purchase_orders/3/
+WARNING:django.request:Bad Request: /features/api/purchase_orders/3/
+WARNING:django.request:Bad Request: /features/api/purchase_orders/1/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Bad Request: /features/api/purchase_orders/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\urls.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\urls.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\urls.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception acknowledging purchase order, 'dict' object has no attribute 'acknowledgment_date'
+WARNING:django.request:Bad Request: /features/api/purchase_orders/3/acknowledge
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception acknowledging purchase order, Field 'average_response_time' expected a number but got datetime.timedelta(days=2, seconds=28318, microseconds=343080).
+WARNING:django.request:Bad Request: /features/api/purchase_orders/3/acknowledge
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception acknowledging purchase order, Field 'average_response_time' expected a number but got datetime.timedelta(days=2, seconds=28318, microseconds=343080).
+WARNING:django.request:Bad Request: /features/api/purchase_orders/3/acknowledge
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception acknowledging purchase order, Field 'average_response_time' expected a number but got datetime.timedelta(days=2, seconds=28318, microseconds=343080).
+WARNING:django.request:Bad Request: /features/api/purchase_orders/3/acknowledge
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception acknowledging purchase order, 'datetime.timedelta' object has no attribute 'total_minutes'
+WARNING:django.request:Bad Request: /features/api/purchase_orders/3/acknowledge
+INFO:vendor_management.settings:Exception acknowledging purchase order, 'datetime.timedelta' object has no attribute 'total_minutes'
+WARNING:django.request:Bad Request: /features/api/purchase_orders/3/acknowledge
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Bad Request: /features/api/purchase_orders/1/acknowledge
+INFO:vendor_management.settings:Exception updating purchase order, 'int' object has no attribute 'filter'
+WARNING:django.request:Bad Request: /features/api/purchase_orders/3/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception updating purchase order, 'int' object has no attribute 'filter'
+WARNING:django.request:Bad Request: /features/api/purchase_orders/3/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception getting historical performance metrics, 'details'
+WARNING:django.request:Bad Request: /features/api/vendors/1/performance
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception getting historical performance metrics, 'data'
+WARNING:django.request:Bad Request: /features/api/vendors/1/performance
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception getting historical performance metrics, 'data'
+WARNING:django.request:Bad Request: /features/api/vendors/1/performance
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception getting historical performance metrics, 'data'
+WARNING:django.request:Bad Request: /features/api/vendors/1/performance
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception getting historical performance metrics, 'data'
+WARNING:django.request:Bad Request: /features/api/vendors/1/performance
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Bad Request: /features/api/vendors/3/
+WARNING:django.request:Bad Request: /features/api/vendors/2/performance
+WARNING:django.request:Bad Request: /features/api/purchase_orders/1/
+WARNING:django.request:Bad Request: /features/api/purchase_orders/2/
+WARNING:django.request:Bad Request: /features/api/purchase_orders/3/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Bad Request: /features/api/purchase_orders/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Bad Request: /features/api/purchase_orders/
+ERROR:django.request:Internal Server Error: /admin/features/featurespurchaseordermodel/8/change/
+Traceback (most recent call last):
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\options.py", line 1948, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\options.py", line 1804, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\options.py", line 1855, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\contrib\admin\options.py", line 1259, in save_model
+    obj.save()
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\db\models\base.py", line 924, in save_base
+    post_save.send(
+  File "D:\Projects\vendor_management\env\lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "D:\Projects\vendor_management\features\models.py", line 69, in update_performance_metrics
+    if 'status' in instance._modified_fields:
+AttributeError: 'FeaturesPurchaseOrderModel' object has no attribute '_modified_fields'
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception updating purchase order, `create()` must be implemented.
+WARNING:django.request:Bad Request: /features/api/purchase_orders/9/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\vendor_management\settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Bad Request: /features/api/purchase_orders/3/
+WARNING:django.request:Not Found: /favicon.ico
+INFO:vendor_management.settings:Exception updating purchase order, 'Asia/Kolkata' object has no attribute 'now'
+WARNING:django.request:Bad Request: /features/api/purchase_orders/9/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception updating purchase order, 'Asia/Kolkata' object has no attribute 'now'
+WARNING:django.request:Bad Request: /features/api/purchase_orders/9/
+INFO:vendor_management.settings:Exception updating purchase order, 'Asia/Kolkata' object has no attribute 'now'
+WARNING:django.request:Bad Request: /features/api/purchase_orders/9/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception updating purchase order, 'Asia/Kolkata' object has no attribute 'now'
+WARNING:django.request:Bad Request: /features/api/purchase_orders/9/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception updating purchase order, 'Asia/Kolkata' object has no attribute 'now'
+WARNING:django.request:Bad Request: /features/api/purchase_orders/9/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception updating purchase order, 'Asia/Kolkata' object has no attribute 'now'
+WARNING:django.request:Bad Request: /features/api/purchase_orders/9/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\signals.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception updating purchase order, type object 'datetime.timezone' has no attribute 'now'
+WARNING:django.request:Bad Request: /features/api/purchase_orders/9/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\signals.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\signals.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception updating purchase order, null value in column "date" of relation "features_featureshistoricalperformancemodel" violates not-null constraint
+DETAIL:  Failing row contains (3, 2024-05-05 13:00:52.957302+00, 2024-05-05 13:00:52.957302+00, null, 0, null, null, null, 3).
+
+WARNING:django.request:Bad Request: /features/api/purchase_orders/10/
+INFO:vendor_management.settings:Exception updating purchase order, null value in column "date" of relation "features_featureshistoricalperformancemodel" violates not-null constraint
+DETAIL:  Failing row contains (4, 2024-05-05 13:01:52.7939+00, 2024-05-05 13:01:52.7939+00, null, 0, null, null, null, 3).
+
+WARNING:django.request:Bad Request: /features/api/purchase_orders/10/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\signals.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception updating purchase order, null value in column "quality_rating_avg" of relation "features_featureshistoricalperformancemodel" violates not-null constraint
+DETAIL:  Failing row contains (5, 2024-05-05 13:02:50.469621+00, 2024-05-05 13:02:50.469621+00, 2024-05-05 13:02:50.464318+00, 0, null, null, null, 3).
+
+WARNING:django.request:Bad Request: /features/api/purchase_orders/10/
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\signals.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\signals.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\signals.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\signals.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\apps.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\models.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\features\serializers.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:D:\Projects\vendor_management\vendor_management\settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:vendor_management.settings:Exception updating purchase order, get() returned more than one FeaturesHistoricalPerformanceModel -- it returned 3!
+WARNING:django.request:Bad Request: /features/api/purchase_orders/10/
